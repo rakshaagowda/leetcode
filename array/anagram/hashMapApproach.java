@@ -1,7 +1,7 @@
 //package leetcode.array.anagram;
 
 import java.util.HashMap;
-
+//Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length())
