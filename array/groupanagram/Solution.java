@@ -3,7 +3,7 @@ package groupanagram;
 import java.util.HashMap;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 public class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String, List<String>> ans = new HashMap<>();
