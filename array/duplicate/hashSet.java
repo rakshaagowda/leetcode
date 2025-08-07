@@ -1,4 +1,4 @@
-package leetcode.array.duplicate;
+package duplicate;
 
 import java.util.HashSet;
 
