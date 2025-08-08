@@ -1,5 +1,8 @@
 package ProductArray;
+//Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 
+
+//Solved using Dynamic Programming Approach(tabulation)
 public class leftRight {
   
     public int[] productExceptSelf(int[] nums) {
