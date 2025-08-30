@@ -1,3 +1,4 @@
+//Given an integer n, return true if it is a power of two. Otherwise, return false.
 #include <climits>
 #include <math.h>
 class Solution {
