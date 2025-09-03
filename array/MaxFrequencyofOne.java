@@ -1,3 +1,6 @@
+//Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+ 
 public class MaxFrequencyofOne {
   public void maxFrequency(int[] nums) {
   int n=nums.length;
