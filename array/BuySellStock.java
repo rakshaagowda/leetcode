@@ -7,13 +7,18 @@ Return the maximum profit you can achieve from this transaction. If you cannot a
  */
 public class BuySellStock {
   public int maxProfit(int[] prices) {
-    int minPrice = Integer.MAX_VALUE;
-    int maxProfit = 0;
-    for (int price : prices) {
-      minPrice = Math.min(minPrice, price);
-      maxProfit = Math.max(maxProfit, price - minPrice);
-    }
-    return maxProfit;
+    int max=0,min=prices[0];
+        for(int i=0;i<prices.length;i++){
+            if(prices[i]<min){
+                min=prices[i];
+               // max=prices[i];
+            }
+            if(prices[i]-min>max){
+                max=prices[i]-min;
+            }
+        }
+        return max;
+    
   }
   
 }
